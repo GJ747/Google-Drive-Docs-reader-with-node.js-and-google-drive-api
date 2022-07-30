@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    height: 100vh;
+   
+}
+.sidebar{
+    background-color: rgb(0, 128, 255);
+    height: 100%;
+    overflow: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.sidebar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+button{  
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 4px white;
+    background-color: rgb(0, 128, 255);
+    height: 70px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* li{
+    border: solid 3px white;
+    margin-top: 50px;
+    margin-right: 10%;
+    padding: 20px;
+} */
+
+button:hover{
+    background-color: white;
+    color: rgb(0, 128, 255);
+}
+
+iframe{
+    height: 100%;
+    width: 1000px;
+}
